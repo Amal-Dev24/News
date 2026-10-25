@@ -32,7 +32,7 @@ console.log(news);
 
     } else {
 
-        $data.html(`<p class="py-4 text-center mx-auto">Not found data try again</p>`)
+        $data.html(`<p class="py-4 text-center w-75 mx-auto">Not found data try again</p>`)
 
     }
 
