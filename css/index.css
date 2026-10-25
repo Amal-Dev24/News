@@ -19,9 +19,19 @@ body {
     padding-block: 5px;
 }
 
-#data>p {
+#data .container nav {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
 
-    height: 30px;
+#data .container .row>p {
+
+    padding-block: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
     background-color: #252A30;
     color: #D9D7D0;
+
 }
