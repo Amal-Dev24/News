@@ -22,7 +22,7 @@ function showData(data, currentPage) {
 
     $data.html("");
 
-    if (news.length > 0) {
+    if (news?.length > 0) {
         for (let item of news) {
             $data.append(cardComponent(item));
             // console.log($data.append(cardComponent()))
