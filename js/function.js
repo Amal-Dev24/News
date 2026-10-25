@@ -19,7 +19,7 @@ function showData(data, currentPage) {
 
     let numberofpages = Math.ceil(data.totalResults / 10),
         news = data.articles;
-
+console.log(news);
     $data.html("");
 
     if (news?.length > 0) {
