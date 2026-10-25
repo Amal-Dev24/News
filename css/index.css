@@ -1,0 +1,27 @@
+body {
+    background-color: #607D96;
+}
+
+
+
+#filter form input {
+    border: 2px solid #252A30;
+    background-color: #607D96;
+    color: #252A30;
+    padding-block: 5px;
+}
+
+#filter form button {
+    background-color: #849780;
+    border: 2px solid #252A30;
+    color: #252A30;
+    font-size: 18px;
+    padding-block: 5px;
+}
+
+#data>p {
+
+    height: 30px;
+    background-color: #252A30;
+    color: #D9D7D0;
+}
